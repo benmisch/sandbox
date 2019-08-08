@@ -1,9 +1,10 @@
 import java.util.HashMap;
 
 class Main {
-  public static void main(String[] args) {
 
-    String[] arr = generateNames();
+  public static void main(String[] args) {
+    
+    /*String[] arr = generateNames();
 
     HashMap<String, Integer> map = new HashMap<String, Integer>() {
       {
@@ -17,7 +18,7 @@ class Main {
       System.out.println(x + ", " + map.get(x));
     }
 
-    /*
+    
     BenaryTree<String, Integer> benTree = new BenaryTree<>();
 
     for (String key : map.keySet()){
@@ -26,7 +27,7 @@ class Main {
     }
 
     benTree.treePrint();
-    */
+    
 
     BenTable<String, Integer> table = new BenTable<>();
 
@@ -34,7 +35,7 @@ class Main {
       table.insert(key, map.get(key));
     }    
 
-    table.printTable();
+    table.printTable();*/
    
   }
 
