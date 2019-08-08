@@ -1,0 +1,5 @@
+This folder contains several files: 
+* BenTable -- my implementation of a HashTable, but instead of using linked lists for sequential chaining, I used binary search trees. I chose BSTs just to practice them. 
+* BenaryTree -- my implementation of a binary search tree.
+* BenBlackTree -- my incomplete implementation of a red-black tree. I got bored coding the rotations, and probably won't finish it. 
+* Entry -- a helper class creating an object that carries key and value properties.
